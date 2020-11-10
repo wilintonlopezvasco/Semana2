@@ -50,7 +50,7 @@ INSERT INTO pasajeros (NM_ID_VUELO, DS_NOMBRES, DS_APELLIDOS, DS_GENERO, DS_TIPO
 VALUES (1, 'santiago', 'garcia', 'masculino', 'cedula', 2765465783, 2312344433, 'garcia@garcia.com');
 
 INSERT INTO pasajeros (NM_ID_VUELO, DS_NOMBRES, DS_APELLIDOS, DS_GENERO, DS_TIPO_IDENTIFICACION, DS_IDENTIFICACION, DS_CELULAR, DS_EMAIL)
-VALUES (1, 'camilo', 'suaza', 'masculino', 'cedula', 2754676543, 3456545677, 'suaza@suaza.com');
+VALUES (2, 'camilo', 'suaza', 'masculino', 'cedula', 2754676543, 3456545677, 'suaza@suaza.com');
 
 INSERT INTO vuelos (NM_ID_PASAJERO, NM_NUMERO_VUELO, DS_ORIGEN, DS_DESTINO, DS_HORA, FE_FECHA)
 VALUES (1, 1, 'medellin', 'bogota', '08:00', '2020-11-09');
