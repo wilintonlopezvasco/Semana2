@@ -1,2 +1,2 @@
-SELECT v.origen, v.destino, p.nombre, p.apellido, p.identificacion FROM vuelos AS v
-INNER JOIN pasajeros AS p ON v.id = 1 AND p.id_vuelo = 1;
+SELECT v.DS_ORIGEN, v.DS_DESTINO, p.DS_NOMBRES, p.DS_APELLIDOS, p.DS_IDENTIFICACION FROM vuelos AS v
+INNER JOIN pasajeros AS p ON v.NM_ID = 1 AND p.NM_ID_VUELO = 1;
